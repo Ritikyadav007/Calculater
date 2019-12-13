@@ -89,7 +89,7 @@ const clearAll=()=>{
 percentage.addEventListener('click',()=>{
 	prevInput=(parseFloat(currentInput)/100).toString()
 	calculationOperator='*'
-	//currentInput="0"
+	currentInput="0"
 });
 
 decimal.addEventListener("click",()=>{
